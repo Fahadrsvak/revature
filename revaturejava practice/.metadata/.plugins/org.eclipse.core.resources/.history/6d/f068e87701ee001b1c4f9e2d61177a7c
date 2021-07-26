@@ -1,0 +1,13 @@
+package mypack;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		// Iam single line comment
+		/*
+		 Iam multi line comment
+		 */
+		System.out.println("hello and welcome to java.");
+	}
+
+}
