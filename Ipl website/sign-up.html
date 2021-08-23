@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign-in</title>
+    </head>
+    <bodyl align="center">
+        <h1>Create a new Account in Ipl website</h1>
+        <form method="POST" action="https://www.w3schools.com/action_page.php">
+            <label for="firstName"> First Name </label>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter the First Name" required title="First name is Mandatory ">
+            <br><br>
+            <label for="lastName">Last Name </label>
+            <input type="text" id="lastName" name="lastName" placeholder ="Enter the Last Name">
+            <br><br>
+            <label for="emailId">Email Id</label>
+            <input type="text" id="emailId" pattern="[a-z0-9._%+-]+@[a-z0-9.9.-]+\.[a-z]{2,}$" name="emailId" placeholder="Ente Mail Id" required>
+            <br><br>
+            <label for="password"> Password </label>
+            <input type="password" id="password" name="password" Placeholder="Enter the password" required>
+            <br><br>
+            <label for="confirmPassword" >Confirm Password </label>
+            <input type="password" id="confirmPassword" name="confirmPassword" Placeholder="Enter the password again" required>
+            <br><br>
+
+            <label for="team"> Select Team </label>
+            <select id="team" name="team" required>
+                <option>[--select a Team--]</option>
+                <option>Chennai Super kings</option>
+                <option>Mumbai Indians</option>
+                <option>Royal Challengers Bangaloru</option>
+                <option>Rajasthan Royals</option>
+            </select>
+            <br><br>
+            <label for="gender"> Gender </label>
+            <input type="radio" name="gender" value="M" id="male" checked ><label for="male">Male</label> 
+            <input type="radio" name="gender" value="F" id="female"> <label for="female">Female</label>
+            <br><br>
+            <input type="submit" value="Register">
+            <br><br>
+            <a href="login.html">Already Have an Account</a>
+       
+            <br><br><br><br><br><br><br>
+            <a href="player.html">View All Player Details</a>
+            <br><br>
+            <a href="team.html">View All Team Details</a>
+        </form>
+    </bodyl>
+</html>
